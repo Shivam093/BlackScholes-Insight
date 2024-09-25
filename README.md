@@ -20,8 +20,7 @@ This project implements a web application using Python and Streamlit to calculat
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/black-scholes-option-pricing.git
-   cd black-scholes-option-pricing
+   git clone https://github.com/Shivam093/BlackScholes-Insight.git
    ```
 
 2. Install the required packages:
@@ -41,4 +40,5 @@ This project implements a web application using Python and Streamlit to calculat
 4. The heatmaps will update interactively, offering a visual representation of how price changes affect options.
 
 ## Screenshots
-- *Add relevant screenshots of your app's interface here.*
+![image](https://github.com/user-attachments/assets/ffb57941-35da-4468-9959-ad4a8b2b379d)
+
