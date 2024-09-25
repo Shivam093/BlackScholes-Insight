@@ -150,7 +150,7 @@ with st.sidebar:
     st.title("Black-Scholes Model")
     current_price = st.number_input("Spot Price", value=100.0)
     strike = st.number_input("Strike Price", value=100.0)
-    time_to_maturity = st.number_input("Time to Maturity (Years)", value=1.0)
+    time_to_maturity = st.number_input("Time to Expiry (Years)", value=1.0)
     volatility = st.number_input("Volatility (σ)", value=0.2)
     interest_rate = st.number_input("Risk-Free Interest Rate", value=0.05)
 
@@ -225,7 +225,7 @@ st.title("Black-Scholes Pricing Model")
 input_data = {
     "Spot Price": [current_price],
     "Strike Price": [strike],
-    "Time to Maturity (Years)": [time_to_maturity],
+    "Time to Expiry (Years)": [time_to_maturity],
     "Volatility (σ)": [volatility],
     "Risk-Free Interest Rate": [interest_rate],
 }
