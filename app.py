@@ -140,8 +140,6 @@ class BlackScholes:
 
         return call_price, put_price
 
-# Function to generate heatmaps
-# ... your existing imports and BlackScholes class definition ...
 
 
 # Sidebar for User Inputs
