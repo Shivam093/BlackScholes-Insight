@@ -262,8 +262,6 @@ st.markdown("")
 st.markdown("""
 ## Option Price Sensitivity Analysis""")
 st.info("Visualize how Call and Put option prices change with varying Spot Prices and Volatility levels. Use the sidebar to adjust the heatmap parameters and explore price sensitivities while keeping the Strike Price constant.")
-# st.title("Options Price - Interactive Heatmap")
-# st.info("Explore how option prices fluctuate with varying 'Spot Prices and Volatility' levels using interactive heatmap parameters, all while maintaining a constant 'Strike Price'.")
 
 # Interactive Sliders and Heatmaps for Call and Put Options
 col1, col2 = st.columns([1,1], gap="small")
